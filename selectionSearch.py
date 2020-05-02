@@ -1,5 +1,8 @@
 __author__ = "Trang Ha"
 
+# Input: an unordered list
+# Output: finding the nth smallest value of the list using partition method
+
 class QuickSelect():
     def __init__(self, lst, k):
         self.lst = lst
