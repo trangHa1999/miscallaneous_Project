@@ -1,6 +1,9 @@
 __author__ = "Trang Ha"
 
 # Link to Download ffmpeg packet: https://www.ffmpeg.org/download.html
+# Input: youtube link
+# Output: converting the YT video to mp3
+
 import youtube_dl
 
 def convertToMP3(link):
