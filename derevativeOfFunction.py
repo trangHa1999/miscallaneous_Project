@@ -1,5 +1,8 @@
 __athor__ = "Trang Ha"
 
+# Input: function, starting value, ending value, increment value
+# Output: calculating derivative of the function and f(x) prime values
+
 from numpy import arange
 from sympy import Symbol, Derivative
 from sympy.parsing.sympy_parser import parse_expr
